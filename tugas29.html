@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Tugas 29 Semantic ui css</title>
+        <link rel="stylesheet"  href="semantic.min.css">
+        
+        <style>
+         body{
+             background-color:  #333333;
+         }
+        </style>
+    </head>
+    <body>
+      <div class="ui center aligned grid">
+        <div class="twelve wide column"> <br>  <br>     
+          <div class="ui container">
+              
+            <h2><img src="niomic.png" width="100px" height="100px">Daftar Akun NIOMIC</h2>
+          </div>   <br><br>
+          
+            <form class="ui form">
+                <div class="ui stacked secondary segment">
+                    <div class="field">
+                        <div class="ui left icon input">
+                            <i class="user icon"></i>
+                            <input type="text" name="nama_depan" placeholder="Nama Depan" ng-model="Nama depan">
+                        </div>
+                    </div>
+                    <div class="field">
+                        <div class="ui left icon input">
+                            <i class="lock icon"></i>
+                            <input type="text" name="nama_belakang" placeholder="Nama Belakang" ng-model="Nama Belakang">
+                        </div>
+                    </div>
+                    <div class="field">
+                        <div class="ui left icon input">
+                            <i class="lock icon"></i>
+                            <input type="text" name="no_telp" placeholder="No Telp / HP" ng-model="No Telp">
+                        </div>
+                    </div>
+                    <div class="field">
+                        <div class="ui left icon input">
+                            <i class="lock icon"></i>
+                            <input type="email" name="email" placeholder="Alamat Email" ng-model="Email">
+                        </div>
+                    </div>
+                    <div class="field">
+                        <div class="ui left icon input">
+                            <i class="lock icon"></i>
+                            <input type="password" name="password" placeholder="Password" ng-model="password">
+                        </div>
+                    </div>
+                    <div class="ui fluid large teal submit button" ng-click="login()">Login</div>
+                </div>
+                
+            </form>
+           
+        </div>
+    </div>
+                     <!-- <div class="ui vertical divider">  -->
+            
+    </body>
+</html>
